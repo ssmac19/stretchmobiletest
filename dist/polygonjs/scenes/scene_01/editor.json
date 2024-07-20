@@ -1,0 +1,139 @@
+{
+	"multiple_panel": {
+		"split_ratio": 0.5,
+		"split_panel0": {
+			"split_ratio": 0.5543217692883486,
+			"split_panel0": {
+				"panelTypes": ["viewer"],
+				"currentPanelIndex": 0,
+				"panel_data": {
+					"camera": "/cameras/cameras:sopGroup/perspectiveCamera_MAIN",
+					"isViewerInitLayoutData": true,
+					"linkIndex": 1,
+					"overlayedNetwork": {
+						"allowed": false,
+						"displayed": false
+					}
+				}
+			},
+			"split_panel1": {
+				"panelTypes": ["params"],
+				"currentPanelIndex": 0,
+				"panel_data": {
+					"active_folder": 42,
+					"linkIndex": 1
+				}
+			},
+			"split_mode": "vertical"
+		},
+		"split_panel1": {
+			"panelTypes": ["network", "params", "viewer"],
+			"currentPanelIndex": 0,
+			"panel_data": {
+				"camera": {
+					"position": {
+						"x": 79.17596858455808,
+						"y": 203.59310979070793
+					},
+					"zoom": 1.0222221069335933
+				},
+				"history": {
+					"2": {
+						"position": {
+							"x": 79.17596858455808,
+							"y": 203.59310979070793
+						},
+						"zoom": 1.0222221069335933
+					},
+					"36": {
+						"position": {
+							"x": -440.9065757243853,
+							"y": -271.0690460651502
+						},
+						"zoom": 0.6036119319232178
+					},
+					"376": {
+						"position": {
+							"x": 200,
+							"y": 100
+						},
+						"zoom": 1.0222221069335933
+					},
+					"582": {
+						"position": {
+							"x": 0,
+							"y": 0
+						},
+						"zoom": 0.4400330983720257
+					},
+					"601": {
+						"position": {
+							"x": -49.977434625612375,
+							"y": -234.10338842674466
+						},
+						"zoom": 0.8279999066162111
+					},
+					"1863": {
+						"position": {
+							"x": 0,
+							"y": 0
+						},
+						"zoom": 0.8279999066162111
+					}
+				},
+				"paramsDisplayed": false,
+				"linkIndex": 1
+			}
+		},
+		"split_mode": "horizontal"
+	},
+	"currentNodes": ["/", "/", "/", "/", "/", "/", "/", "/"],
+	"navigationHistory": {
+		"nodePaths": {
+			"1": [
+				"/",
+				"/text",
+				"/",
+				"/geo1",
+				"/geo1/MAT",
+				"/geo1/MAT/meshPhysicalBuilder1",
+				"/geo1/MAT",
+				"/geo1",
+				"/geo1/MAT",
+				"/geo1",
+				"/geo1/MAT",
+				"/geo1/MAT/meshPhysical_CLOTH",
+				"/geo1/MAT",
+				"/geo1",
+				"/",
+				"/text",
+				"/",
+				"/geo1",
+				"/"
+			],
+			"2": ["/"],
+			"3": ["/"],
+			"4": ["/"],
+			"5": ["/"],
+			"6": ["/"],
+			"7": ["/"],
+			"8": ["/"]
+		},
+		"index": {
+			"1": 18,
+			"2": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0
+		}
+	},
+	"fullscreenPanelId": null,
+	"saveOptions": {
+		"checkRemoteAssetsUse": true,
+		"minimizeFilesCount": false
+	},
+	"paramsModal": []
+}
