@@ -38,6 +38,7 @@ canvas {
 	/* https://stackoverflow.com/questions/29008194/disabling-androids-chrome-pull-down-to-refresh-feature */
 	overflow-y: hidden;
 }
+}
 .page-title {
 	position: absolute;
 	text-align: center;

@@ -1,0 +1,11 @@
+{
+	"type": "materialsNetwork",
+	"nodes": {
+		"meshPhysical1": {
+			"type": "meshPhysical",
+			"params": {
+				"color": [1, 0.7083757798856457, 0.7083757798856457]
+			}
+		}
+	}
+}

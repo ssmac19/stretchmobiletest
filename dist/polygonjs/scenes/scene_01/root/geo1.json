@@ -1,0 +1,228 @@
+{
+	"type": "geo",
+	"nodes": {
+		"icosahedron1": {
+			"type": "icosahedron",
+			"params": {
+				"detail": 11
+			}
+		},
+		"clothPrepare1": {
+			"type": "clothPrepare",
+			"inputs": ["restAttributes1"]
+		},
+		"material1": {
+			"type": "material",
+			"params": {
+				"material": "../MAT/meshPhysical_CLOTH"
+			},
+			"inputs": ["clothSolver1"],
+			"flags": {
+				"display": true
+			}
+		},
+		"restAttributes1": {
+			"type": "restAttributes",
+			"inputs": ["objectProperties2"]
+		},
+		"fileOBJ1": {
+			"type": "fileOBJ",
+			"params": {
+				"url": "models/cloth_character_01.obj?timestamp=1721399314817"
+			}
+		},
+		"hierarchy1": {
+			"type": "hierarchy",
+			"params": {
+				"mode": 1
+			},
+			"inputs": ["fileOBJ1"]
+		},
+		"transform1": {
+			"type": "transform",
+			"params": {
+				"scale": 2
+			},
+			"inputs": ["hierarchy1"]
+		},
+		"objectProperties1": {
+			"type": "objectProperties",
+			"params": {
+				"tcastShadow": true
+			},
+			"inputs": ["transform1"]
+		},
+		"switch_CHARACTER": {
+			"type": "switch",
+			"params": {
+				"input": 1
+			},
+			"inputs": ["icosahedron1", "objectProperties1", "objectProperties2"]
+		},
+		"hierarchy2": {
+			"type": "hierarchy",
+			"params": {
+				"mode": 1
+			},
+			"inputs": ["fileOBJ2"]
+		},
+		"transform2": {
+			"type": "transform",
+			"params": {
+				"r": [0, 90, -22]
+			},
+			"inputs": ["hierarchy2"]
+		},
+		"objectProperties2": {
+			"type": "objectProperties",
+			"params": {
+				"tcastShadow": true
+			},
+			"inputs": ["transform2"]
+		},
+		"fileOBJ2": {
+			"type": "fileOBJ",
+			"params": {
+				"url": "/models/tritit1.obj?timestamp=1721436721124"
+			}
+		},
+		"clothPrepare2": {
+			"type": "clothPrepare",
+			"params": {
+				"viscosity": ".65",
+				"spring": 6
+			},
+			"inputs": ["restAttributes1"]
+		},
+		"capsule1": {
+			"type": "capsule",
+			"params": {
+				"radius": ".5",
+				"height": 2
+			}
+		},
+		"hierarchy3": {
+			"type": "hierarchy",
+			"params": {
+				"mode": 1
+			},
+			"inputs": ["fileOBJ2"]
+		},
+		"emptyObject1": {
+			"type": "emptyObject",
+			"params": {
+				"type": "Mesh"
+			}
+		}
+	},
+	"params": {
+		"CADLinearTolerance": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CADAngularTolerance": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CADCurveAbscissa": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CADCurveTolerance": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CADDisplayEdges": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CADEdgesColor": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CADDisplayMeshes": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CADMeshesColor": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CADWireframe": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CSGFacetAngle": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CSGLinesColor": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CSGMeshesColor": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CSGWireframe": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"QUADTriangles": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"QUADWireframe": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"TetScale": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"TetDisplayLines": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"TetDisplaySharedFaces": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"TetDisplayPoints": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"TetDisplayCenter": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"TetDisplaySphere": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		}
+	},
+	"flags": {
+		"display": true
+	}
+}
